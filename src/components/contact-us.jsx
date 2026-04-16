@@ -111,7 +111,7 @@ function ContactUs() {
                 Our friendly team is here to help.
               </p>
               <p className="mt-2 text-blue-500 dark:text-blue-400">
-                customer_care@coachavo.com
+                care@coachavo.com
               </p>
             </div>
 
@@ -145,7 +145,7 @@ function ContactUs() {
                 Come say hello at our office.
               </p>
               <p className="mt-2 text-blue-500 dark:text-blue-400">
-                461 NW 9th St Miami, Florida, 33136
+                807 Bel Esprit Cir San Marcos, California 92069 US
               </p>
             </div>
           </div>

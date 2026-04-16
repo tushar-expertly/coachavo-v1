@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
-      {/* Newsletter Section */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 py-16">
+      {/* <div className="bg-gradient-to-r from-blue-600 to-purple-600 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto">
             <h3 className="text-3xl font-bold mb-4">Stay ahead of the curve</h3>
@@ -25,12 +24,11 @@ function Footer() {
                 className="bg-white text-blue-600 hover:bg-blue-50 font-semibold px-8 py-2 rounded transition-colors"
               >
                 Subscribe
-                {/* ArrowRight icon placeholder */}
               </button>
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Main Footer */}
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -51,7 +49,7 @@ function Footer() {
                 Empowering professionals worldwide through innovative education
                 and cutting-edge webinar programs that drive real career growth.
               </p>
-              <div className="flex gap-4">
+              {/* <div className="flex gap-4">
                 <button className="w-10 h-10 bg-gray-800 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors">
                   <span className="sr-only">LinkedIn</span>
                 </button>
@@ -63,7 +61,7 @@ function Footer() {
                 <button className="w-10 h-10 bg-gray-800 hover:bg-blue-600 rounded-full flex items-center justify-center transition-colors">
                   <span className="sr-only">Facebook</span>
                 </button>
-              </div>
+              </div> */}
             </div>
             {/* Quick Links */}
             <div className="space-y-6">
@@ -81,12 +79,12 @@ function Footer() {
                 >
                   Our Courses
                 </Link>
-                <Link
+                {/* <Link
                   to="/our-experts"
                   className="block text-gray-400 hover:text-white transition-colors"
                 >
                   Instructors
-                </Link>
+                </Link> */}
                 <Link
                   to="/archive"
                   className="block text-gray-400 hover:text-white transition-colors"
@@ -97,7 +95,7 @@ function Footer() {
                   to="/subscribe"
                   className="block text-gray-400 hover:text-white transition-colors"
                 >
-                  Certification
+                  Subscribe
                 </Link>
               </nav>
             </div>
@@ -105,12 +103,12 @@ function Footer() {
             <div className="space-y-6">
               <h4 className="font-semibold text-lg">Support</h4>
               <nav className="space-y-3">
-                <Link
+                {/* <Link
                   to="/contact-us"
                   className="block text-gray-400 hover:text-white transition-colors"
                 >
                   Help Center
-                </Link>
+                </Link> */}
                 <Link
                   to="/privacy-policy"
                   className="block text-gray-400 hover:text-white transition-colors"
@@ -127,7 +125,7 @@ function Footer() {
                   to="/consulting"
                   className="block text-gray-400 hover:text-white transition-colors"
                 >
-                  Cookie Policy
+                  Consulting
                 </Link>
                 <Link
                   to="/contact-us"
@@ -144,20 +142,19 @@ function Footer() {
                 <div className="flex items-center gap-3">
                   {/* Mail icon placeholder */}
                   <span className="h-5 w-5 text-blue-400">@</span>
-                  <span className="text-gray-400">hello@Coachavo.com</span>
+                  <span className="text-gray-400">care@coachavo.com</span>
                 </div>
-                <div className="flex items-center gap-3">
-                  {/* Phone icon placeholder */}
+                {/* <div className="flex items-center gap-3">
                   <span className="h-5 w-5 text-blue-400">📞</span>
                   <span className="text-gray-400">+1 (555) 123-4567</span>
-                </div>
+                </div> */}
                 <div className="flex items-start gap-3">
                   {/* MapPin icon placeholder */}
                   <span className="h-5 w-5 text-blue-400 mt-0.5">📍</span>
                   <span className="text-gray-400">
-                    123 Learning Street
+                    807 Bel Esprit Cir San Marcos
                     <br />
-                    Education City, EC 12345
+                    California 92069 US
                   </span>
                 </div>
               </div>
@@ -171,7 +168,7 @@ function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © 2025 Coachavo. All rights reserved.
+              © 2026 Coachavo. All rights reserved.
             </p>
             <div className="flex gap-6">
               <Link

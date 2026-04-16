@@ -31,9 +31,9 @@ function Home() {
                   with Expert-Led Webinars
                 </h1>
                 <p className="text-xl text-gray-600 max-w-lg leading-relaxed">
-                  Join thousands of professionals advancing their skills through our
-                  interactive, world-class webinar programs designed for real-world
-                  success.
+                  Join thousands of professionals advancing their skills through
+                  our interactive, world-class webinar programs designed for
+                  real-world success.
                 </p>
               </div>
               {/* Stats */}
@@ -44,7 +44,9 @@ function Home() {
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-gray-900">200+</div>
-                  <div className="text-sm text-gray-600">Expert Instructors</div>
+                  <div className="text-sm text-gray-600">
+                    Expert Instructors
+                  </div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-gray-900">95%</div>
@@ -52,16 +54,14 @@ function Home() {
                 </div>
               </div>
               {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4">
+              {/* <div className="flex flex-col sm:flex-row gap-4">
                 <button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-xl font-semibold shadow-xl hover:shadow-2xl transition-all duration-300 group">
                   Start Learning Today
-                  {/* Replace with ArrowRight icon if available */}
                 </button>
                 <button className="px-8 py-4 rounded-xl font-semibold border-2 border-gray-300 hover:border-blue-400 hover:bg-blue-50 transition-all duration-300 group">
-                  {/* Replace with Play icon if available */}
                   Watch Demo
                 </button>
-              </div>
+              </div> */}
               {/* Trust badges */}
               <div className="flex items-center gap-6 pt-4">
                 <div className="flex items-center gap-2">
@@ -96,7 +96,9 @@ function Home() {
                     {/* Replace with Clock icon if available */}
                   </div>
                   <div>
-                    <div className="font-semibold text-gray-900">24/7 Access</div>
+                    <div className="font-semibold text-gray-900">
+                      24/7 Access
+                    </div>
                     <div className="text-sm text-gray-600">Learn anytime</div>
                   </div>
                 </div>
@@ -143,8 +145,8 @@ function Home() {
                   </h3>
                   <p className="text-lg text-gray-600 leading-relaxed">
                     Our carefully curated curriculum targets the exact skills
-                    employers demand, ensuring your learning translates directly to
-                    career advancement.
+                    employers demand, ensuring your learning translates directly
+                    to career advancement.
                   </p>
                 </div>
                 <div className="space-y-3">
@@ -204,23 +206,29 @@ function Home() {
                     Interactive Learning Experience
                   </h3>
                   <p className="text-lg text-gray-600 leading-relaxed">
-                    Engage with cutting-edge technology and methodologies that make
-                    complex concepts accessible and memorable through hands-on
-                    practice.
+                    Engage with cutting-edge technology and methodologies that
+                    make complex concepts accessible and memorable through
+                    hands-on practice.
                   </p>
                 </div>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <span className="h-5 w-5 bg-purple-600 rounded-full"></span>
-                    <span className="text-gray-700 font-medium">Live interaction</span>
+                    <span className="text-gray-700 font-medium">
+                      Live interaction
+                    </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <span className="h-5 w-5 bg-purple-600 rounded-full"></span>
-                    <span className="text-gray-700 font-medium">Q&A sessions</span>
+                    <span className="text-gray-700 font-medium">
+                      Q&A sessions
+                    </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <span className="h-5 w-5 bg-purple-600 rounded-full"></span>
-                    <span className="text-gray-700 font-medium">Peer collaboration</span>
+                    <span className="text-gray-700 font-medium">
+                      Peer collaboration
+                    </span>
                   </div>
                 </div>
                 <div className="pt-4">
@@ -268,15 +276,21 @@ function Home() {
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <span className="h-5 w-5 bg-emerald-600 rounded-full"></span>
-                    <span className="text-gray-700 font-medium">Expert mentorship</span>
+                    <span className="text-gray-700 font-medium">
+                      Expert mentorship
+                    </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <span className="h-5 w-5 bg-emerald-600 rounded-full"></span>
-                    <span className="text-gray-700 font-medium">Global network</span>
+                    <span className="text-gray-700 font-medium">
+                      Global network
+                    </span>
                   </div>
                   <div className="flex items-center gap-3">
                     <span className="h-5 w-5 bg-emerald-600 rounded-full"></span>
-                    <span className="text-gray-700 font-medium">Verified certificates</span>
+                    <span className="text-gray-700 font-medium">
+                      Verified certificates
+                    </span>
                   </div>
                 </div>
                 <div className="pt-4">
