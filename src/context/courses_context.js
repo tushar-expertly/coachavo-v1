@@ -60,16 +60,18 @@ export const CoursesProvider = ({ children }) => {
     dispatch({ type: GET_CATEGORIES, payload: categories });
   };
 
-  useEffect(() => {
-    fetchCourse();
-    fetchCategories();
-  }, []);
+  // useEffect(() => {
+  //   fetchCourse();
+  //   fetchCategories();
+  // }, []);
 
   return (
     <CoursesContext.Provider
       value={{
         ...state,
+        fetchCourse,
         fetchSingleCourse,
+        fetchCategories,
       }}
     >
       {children}
